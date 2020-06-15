@@ -1,6 +1,10 @@
 require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
+
+  holiday_hash.each do |k, v|
+    binding.pry
+    end
   # given that holiday_hash looks like this:
   # {
   #   :winter => {
