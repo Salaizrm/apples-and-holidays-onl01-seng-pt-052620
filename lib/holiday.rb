@@ -5,7 +5,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |holiday, values|
     if holiday == "summer"
       values.each do |x, y|
-        if y == "bbq"
+        if y == "BBQ"
           binding.pry
           return y
         end
