@@ -2,16 +2,7 @@ require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
 
-  holiday_hash.each do |holiday, values|
-    if holiday == "summer"
-      values.each do |x, y|
-        if y == "BBQ"
-          binding.pry
-          return y
-        end
-      end
-    end
-  end
+  holiday_hash["summer"][:fourth_of_july][1]
   # given that holiday_hash looks like this:
   # {
   #   :winter => {
