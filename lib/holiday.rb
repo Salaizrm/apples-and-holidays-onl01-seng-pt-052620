@@ -6,6 +6,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
     if holiday == "summer"
       values.each do |x, y|
         if y == "bbq"
+          binding.pry
           return y
         end
       end
