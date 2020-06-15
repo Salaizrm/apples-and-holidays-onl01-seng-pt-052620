@@ -3,7 +3,8 @@ require 'pry'
 def second_supply_for_fourth_of_july(holiday_hash)
 
   holiday_hash.each do |k, v|
-    binding.pry
+    if k == summer
+
     end
   # given that holiday_hash looks like this:
   # {
